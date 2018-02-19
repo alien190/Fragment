@@ -18,20 +18,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:text="Button" />
+            android:text="Button1" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:text="Button" />
+            android:text="Button2" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Button3" />
+
+        <fragment
+            android:id="@+id/container"
+            android:name="com.example.ivanovnv.fragment.SampleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
